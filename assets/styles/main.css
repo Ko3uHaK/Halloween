@@ -142,3 +142,16 @@
       font-size: 1.25rem;
       cursor: pointer;     
   }
+  @media screen and (max-width:767px){
+      .nav_menu{
+          position: fixed;
+          width: 100%;
+          background: var(--container-color);
+          top: 0;
+          left: 0;
+          padding: 3.5rem 0;
+          transition: .4s;
+          z-index: var(--z-fixed);
+          border-radius: 0 0 1.5rem 1.5rem;
+      }
+  }
