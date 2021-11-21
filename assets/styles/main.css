@@ -184,3 +184,6 @@
   .nav__link:hover{
     color: var(--text-color);
   }
+  .show-menu{
+    top: 0;
+  }
