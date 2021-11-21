@@ -95,4 +95,17 @@
     margin-bottom: var(--mb-2);
     text-align: center;
   }
+  .container{
+    max-width: 968px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+  }
+  
+  .grid{
+    display: grid;
+  }
+  
+  .main{
+    overflow: hidden; /*For animation*/
+  }
   
