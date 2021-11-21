@@ -116,3 +116,29 @@
       left: 0;
       z-index: var(--z-fixed);
   }
+  .nav{
+      height: var(--header-height);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+  .nav_logo{
+      display: flex;
+      align-items: center;
+      column-gap: .5rem;
+      font-weight: var(--font-medium);
+  }
+  .nav_logo-img{
+      width: 1.5rem;
+  }
+  .nav_link,
+  .nav_toggle,
+  .nav_close,
+  .nav_item{
+      color:var(--title-color);
+  }
+  .nav_toggle{
+      font-size: 1.25rem;
+      cursor: pointer;     
+  }
