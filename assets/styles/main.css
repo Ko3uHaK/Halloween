@@ -147,11 +147,40 @@
           position: fixed;
           width: 100%;
           background: var(--container-color);
-          top: 0;
+          top: -150%;
           left: 0;
           padding: 3.5rem 0;
           transition: .4s;
           z-index: var(--z-fixed);
           border-radius: 0 0 1.5rem 1.5rem;
       }
+  }
+.nav_image{
+    width:  100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.nav_close{
+    font-size: 1.8rem;
+    position: absolute;
+    top: .5rem;
+    right: .7rem;
+    cursor: pointer;    
+}
+.nav__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.5rem;
+  }
+  
+  .nav__link{
+    text-transform: uppercase;
+    font-weight: var(--font-black);
+    transition: .4s;
+  }
+  
+  .nav__link:hover{
+    color: var(--text-color);
   }
