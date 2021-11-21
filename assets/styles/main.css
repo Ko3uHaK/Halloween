@@ -108,4 +108,11 @@
   .main{
     overflow: hidden;
   }
-  
+  .header{
+      width: 100px;
+      background: var(--body-color);
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: var(--z-fixed);
+  }
