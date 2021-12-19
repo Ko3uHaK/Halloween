@@ -253,3 +253,14 @@ home_indicator::after{
     text-transform: uppercase;
     margin-bottom:var(--mb-1);
 }
+.home_title{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-black);
+    line-height: 109%;
+    margin-bottom: var(--mb-1);
+}
+.home_buttons{
+    display: flex;
+    justify-content: space-between;
+    
+}
