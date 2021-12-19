@@ -259,8 +259,23 @@ home_indicator::after{
     line-height: 109%;
     margin-bottom: var(--mb-1);
 }
+.home_description{
+    margin-bottom: var(--mb-1);
+}
 .home_buttons{
     display: flex;
     justify-content: space-between;
-    
+}
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--title-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+.button:hover{
+    background-color: var(--first-color-alt);
+
 }
