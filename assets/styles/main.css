@@ -279,3 +279,9 @@ home_indicator::after{
     background-color: var(--first-color-alt);
 
 }
+.button--ghost{
+    border: 2 px solid;
+    background-color: transparent;
+    border-radius: 3rem;
+    padding: .75rem 1.5rem;
+}
