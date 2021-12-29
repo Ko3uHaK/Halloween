@@ -279,6 +279,9 @@ home_indicator::after{
     background-color: var(--first-color-alt);
 
 }
+.button_icon{
+    font-size: 1.25rem;
+}
 .button--ghost{
     border: 2 px solid;
     background-color: transparent;
