@@ -277,8 +277,11 @@ home_indicator::after{
 }
 .button:hover{
     background-color: var(--first-color-alt);
-
 }
+.buttonicon{
+    font-size: 1.25rem;
+}
+
 .button_icon{
     font-size: 1.25rem;
 }
