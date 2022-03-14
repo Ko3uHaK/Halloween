@@ -18,4 +18,14 @@ function linkAction(){
     const navMenu = document.getElementById('nav-menu')
     navMenu.classList.remove('show-menu')
 }
-navLink.forEach(n => n.addEventListener('click', linkAction))
+navLink.forEach(n => n.addEventListener('click', linkAction));
+
+let homeSwiper = new Swiper(".home-swiper", {
+    spaceBetween: 30,
+    loop: 'true',
+    
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+})
